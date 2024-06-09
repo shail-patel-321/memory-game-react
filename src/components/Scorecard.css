@@ -1,0 +1,28 @@
+#sc1
+{
+    width: 70px;
+    height: 22px;
+    background-color: white;
+    color: red;
+    padding-bottom: 14px;
+    margin: auto;
+    /* margin-left: auto; */
+}
+
+#sc2
+{
+    width: 70px;
+    height: 25px;
+    background-color: white;
+    color: blue;
+    float: left;
+    padding-bottom: 7px;
+    /* margin-right: auto; */
+}
+
+/* .sc
+{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+} */

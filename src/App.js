@@ -43,6 +43,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import SingleCard from './components/SingleCard'
+import Scorecard from './components/Scorecard'
 
 // const cardImages = [
 //   { "src": "/img/helmet-1.png", matched: false },
@@ -204,7 +205,7 @@ function App() {
     <div className="App">
       <h1>Biscuit</h1>
       <button onClick={shuffleCards}>New Game</button>
-
+      <Scorecard rs={redScore} bs={blueScore}/>
       <div className="card-grid">
         {cards.map(card => (
           <SingleCard 
